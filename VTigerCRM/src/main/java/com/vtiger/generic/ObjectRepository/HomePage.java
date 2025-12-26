@@ -20,6 +20,13 @@ public class HomePage {
 	@FindBy(xpath = "//a[contains(text(),'Org')]")
 	private WebElement organizationLink;
 	 
+	  @FindBy(partialLinkText = "Vendors")
+	  private WebElement Vendor;
+	  
+
+	public WebElement getVendor() {
+		return Vendor;
+	}
 
 	public WebDriver getDriver() {
 		return driver;
@@ -40,7 +47,8 @@ public class HomePage {
 	public WebElement getSingoutBtn() {
 		return singoutBtn;
 	}
-
+    
+	  
 	@FindBy(xpath = "//a[contains(text(),'Conta')]")
 	private WebElement contactLink;
 	
