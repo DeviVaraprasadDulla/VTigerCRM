@@ -2,40 +2,75 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-12-26T12:41:11 IST" name="Default suite" finished-at="2025-12-26T12:41:20 IST" duration-ms="9615">
+=======
+  <suite started-at="2025-12-26T12:57:54 IST" name="Default suite" finished-at="2025-12-26T12:58:07 IST" duration-ms="12819">
+>>>>>>> branch 'main' of https://github.com/DeviVaraprasadDulla/VTigerCRM.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2025-12-26T12:41:11 IST" name="Default test" finished-at="2025-12-26T12:41:20 IST" duration-ms="9615">
       <class name="com.vtiger.crm.baseclass.Demo">
         <test-method is-config="true" signature="createDBConnection()[pri:0, instance:com.vtiger.crm.baseclass.Demo@5dda768f]" started-at="2025-12-26T12:41:11 IST" name="createDBConnection" finished-at="2025-12-26T12:41:11 IST" duration-ms="13" status="PASS">
+=======
+    <test started-at="2025-12-26T12:57:54 IST" name="Default test" finished-at="2025-12-26T12:58:07 IST" duration-ms="12819">
+      <class name="com.vtiger.crm.organization.CreatingOrgWithLastName">
+        <test-method is-config="true" signature="createDBConnection()[pri:0, instance:com.vtiger.crm.organization.CreatingOrgWithLastName@2df3b89c]" started-at="2025-12-26T12:57:54 IST" name="createDBConnection" finished-at="2025-12-26T12:57:54 IST" duration-ms="30" status="PASS">
+>>>>>>> branch 'main' of https://github.com/DeviVaraprasadDulla/VTigerCRM.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDBConnection -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="launchBrowswer()[pri:0, instance:com.vtiger.crm.baseclass.Demo@5dda768f]" started-at="2025-12-26T12:41:11 IST" name="launchBrowswer" finished-at="2025-12-26T12:41:15 IST" duration-ms="4015" status="PASS">
+=======
+        <test-method is-config="true" signature="launchBrowswer()[pri:0, instance:com.vtiger.crm.organization.CreatingOrgWithLastName@2df3b89c]" started-at="2025-12-26T12:57:54 IST" name="launchBrowswer" finished-at="2025-12-26T12:57:56 IST" duration-ms="1780" status="PASS">
+>>>>>>> branch 'main' of https://github.com/DeviVaraprasadDulla/VTigerCRM.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowswer -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="loginUser()[pri:0, instance:com.vtiger.crm.baseclass.Demo@5dda768f]" started-at="2025-12-26T12:41:15 IST" name="loginUser" finished-at="2025-12-26T12:41:18 IST" duration-ms="3605" status="PASS">
+=======
+        <test-method is-config="true" signature="loginUser()[pri:0, instance:com.vtiger.crm.organization.CreatingOrgWithLastName@2df3b89c]" started-at="2025-12-26T12:57:56 IST" name="loginUser" finished-at="2025-12-26T12:57:58 IST" duration-ms="2372" status="PASS">
+>>>>>>> branch 'main' of https://github.com/DeviVaraprasadDulla/VTigerCRM.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUser -->
+<<<<<<< HEAD
         <test-method signature="test()[pri:0, instance:com.vtiger.crm.baseclass.Demo@5dda768f]" started-at="2025-12-26T12:41:18 IST" name="test" finished-at="2025-12-26T12:41:18 IST" duration-ms="17" status="PASS">
+=======
+        <test-method signature="CreateOrganizationTest()[pri:0, instance:com.vtiger.crm.organization.CreatingOrgWithLastName@2df3b89c]" started-at="2025-12-26T12:57:58 IST" name="CreateOrganizationTest" finished-at="2025-12-26T12:58:06 IST" duration-ms="7411" status="PASS">
+>>>>>>> branch 'main' of https://github.com/DeviVaraprasadDulla/VTigerCRM.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- test -->
         <test-method is-config="true" signature="logOutUser()[pri:0, instance:com.vtiger.crm.baseclass.Demo@5dda768f]" started-at="2025-12-26T12:41:18 IST" name="logOutUser" finished-at="2025-12-26T12:41:20 IST" duration-ms="1643" status="PASS">
+=======
+        </test-method> <!-- CreateOrganizationTest -->
+        <test-method is-config="true" signature="logOutUser()[pri:0, instance:com.vtiger.crm.organization.CreatingOrgWithLastName@2df3b89c]" started-at="2025-12-26T12:58:06 IST" name="logOutUser" finished-at="2025-12-26T12:58:07 IST" duration-ms="861" status="PASS">
+>>>>>>> branch 'main' of https://github.com/DeviVaraprasadDulla/VTigerCRM.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutUser -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="quitBroswe()[pri:0, instance:com.vtiger.crm.baseclass.Demo@5dda768f]" started-at="2025-12-26T12:41:20 IST" name="quitBroswe" finished-at="2025-12-26T12:41:20 IST" duration-ms="284" status="PASS">
+=======
+        <test-method is-config="true" signature="quitBroswe()[pri:0, instance:com.vtiger.crm.organization.CreatingOrgWithLastName@2df3b89c]" started-at="2025-12-26T12:58:07 IST" name="quitBroswe" finished-at="2025-12-26T12:58:07 IST" duration-ms="330" status="PASS">
+>>>>>>> branch 'main' of https://github.com/DeviVaraprasadDulla/VTigerCRM.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBroswe -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:com.vtiger.crm.baseclass.Demo@5dda768f]" started-at="2025-12-26T12:41:20 IST" name="closeDBConnection" finished-at="2025-12-26T12:41:20 IST" duration-ms="1" status="PASS">
+=======
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:com.vtiger.crm.organization.CreatingOrgWithLastName@2df3b89c]" started-at="2025-12-26T12:58:07 IST" name="closeDBConnection" finished-at="2025-12-26T12:58:07 IST" duration-ms="0" status="PASS">
+>>>>>>> branch 'main' of https://github.com/DeviVaraprasadDulla/VTigerCRM.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBConnection -->
-      </class> <!-- com.vtiger.crm.baseclass.Demo -->
+      </class> <!-- com.vtiger.crm.organization.CreatingOrgWithLastName -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
