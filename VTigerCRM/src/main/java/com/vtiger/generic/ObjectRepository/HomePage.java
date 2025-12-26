@@ -21,6 +21,26 @@ public class HomePage {
 	private WebElement organizationLink;
 	 
 
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getMoreLink() {
+		return moreLink;
+	}
+
+	public WebElement getCampagin() {
+		return campagin;
+	}
+
+	public WebElement getUserImage() {
+		return userImage;
+	}
+
+	public WebElement getSingoutBtn() {
+		return singoutBtn;
+	}
+
 	@FindBy(xpath = "//a[contains(text(),'Conta')]")
 	private WebElement contactLink;
 	
