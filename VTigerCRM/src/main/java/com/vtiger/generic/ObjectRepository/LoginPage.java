@@ -1,4 +1,4 @@
-package com.vtiger.crm.objectRepository;
+package com.vtiger.generic.ObjectRepository;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,13 +9,9 @@ import com.vtiger.crm.generic.webDriverUtility.WebDriverUtility;
 
 /**
  * 
- * LoginPage
- *
- * @author Devi Vara Prasad
- * This page contains login page details and business logic
  */
 public class LoginPage {
-	
+
 	public WebDriver driver = null;
 	WebDriverUtility wlib = new WebDriverUtility();
 
@@ -49,17 +45,6 @@ public class LoginPage {
 		return loginButton;
 	}
 
-	
-
-	// login action
-	
-	/**
-	 * login action with userName,password and URL parameter.
-	 * @param userName
-	 * @param password
-	 * @param url
-	 * 
-	 */
 
 	public void loginAction(String userName, String password,String url) {
 		
@@ -70,7 +55,4 @@ public class LoginPage {
 		loginButton.click();
 
 	}
-	
-	
-
 }

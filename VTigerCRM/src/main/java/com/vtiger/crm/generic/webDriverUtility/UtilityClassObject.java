@@ -1,4 +1,4 @@
-package com.vtiger.crm.baseclass;
+package com.vtiger.crm.generic.webDriverUtility;
 
 import org.openqa.selenium.WebDriver;
 

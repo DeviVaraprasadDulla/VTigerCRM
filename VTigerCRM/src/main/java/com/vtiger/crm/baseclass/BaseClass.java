@@ -3,7 +3,6 @@ package com.vtiger.crm.baseclass;
 import java.io.IOException;
 import java.sql.SQLException;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,10 +14,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.vtiger.crm.generic.fileUtility.FileUtility;
-import com.vtiger.crm.generic.webDriverUtility.JavaUtility;
+import com.vtiger.crm.generic.webDriverUtility.UtilityClassObject;
 import com.vtiger.crm.generic.webDriverUtility.WebDriverUtility;
-import com.vtiger.crm.objectRepository.HomePage;
-import com.vtiger.crm.objectRepository.LoginPage;
+import com.vtiger.generic.ObjectRepository.HomePage;
+import com.vtiger.generic.ObjectRepository.LoginPage;
 
 public class BaseClass {
 
@@ -27,7 +26,7 @@ public class BaseClass {
 
 	public FileUtility fileUtility = new FileUtility();
 //	public ExcelUtility excelUtility = new ExcelUtility();
-	public JavaUtility javaUtility = new JavaUtility();
+//	public JavaUtility javaUtility = new JavaUtility();
 //	public DataBaseUtility dblib = new DataBaseUtility();
 	public WebDriverUtility wdlib = new WebDriverUtility();
 	

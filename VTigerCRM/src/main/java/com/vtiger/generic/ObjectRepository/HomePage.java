@@ -1,4 +1,4 @@
-package com.vtiger.crm.objectRepository;
+package com.vtiger.generic.ObjectRepository;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -64,6 +64,5 @@ public class HomePage {
 		wdlib.waitForElementPresent(driver,singoutBtn);
 		singoutBtn.click();
 	}
-
 
 }
