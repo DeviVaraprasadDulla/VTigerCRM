@@ -19,6 +19,7 @@ public class HomePage {
 
 	@FindBy(xpath = "//a[contains(text(),'Org')]")
 	private WebElement organizationLink;
+	 
 
 	@FindBy(xpath = "//a[contains(text(),'Conta')]")
 	private WebElement contactLink;
