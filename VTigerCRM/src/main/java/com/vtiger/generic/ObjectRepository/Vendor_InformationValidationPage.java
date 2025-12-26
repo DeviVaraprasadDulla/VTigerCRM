@@ -7,6 +7,8 @@ public class Vendor_InformationValidationPage {
 	
 	     @FindBy(className = "lvtHeaderText")
 	     WebElement title;
+	      
+	      
 	     
 
 }
